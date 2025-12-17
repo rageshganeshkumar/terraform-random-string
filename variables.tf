@@ -8,3 +8,8 @@ variable "pass" {
   type        = string
   sensitive   = true
 }
+
+variable "env" {
+  description = "Environment category"
+  type        = string
+}
